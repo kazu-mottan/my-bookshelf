@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "marp slide.md -o docs/index.html",
+    "build": "marp --html slide.md -o docs/index.html",
     "serve": "marp -s slide.md"
   },
   "repository": {
